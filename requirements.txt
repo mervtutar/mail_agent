@@ -1,0 +1,33 @@
+# Web/API
+fastapi
+uvicorn[standard]
+
+# Ortam değişkenleri
+python-dotenv
+
+# Gmail API (readonly OAuth)
+google-api-python-client
+google-auth-oauthlib
+
+# LLM: Gemini (LangChain bağlayıcısıyla)
+langchain
+langchain-google-genai
+google-genai
+
+# Metin işleme / HTML temizleme
+beautifulsoup4
+
+# Şema / veri
+pydantic
+jsonschema
+
+# Günlükleme
+loguru
+
+# Test
+pytest
+
+tiktoken        # kabaca token tahmini / chunking için
+sqlmodel        # ileride SQLite/Postgres’e geçersen
+tenacity        # retry/backoff yardımcıları
+python-dateutil # tarih parse/normalize
